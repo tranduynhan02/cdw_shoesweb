@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.servlet.ModelAndView;
 import vn.edu.hcmuaf.fit.service.CategoryService;
+import vn.edu.hcmuaf.fit.service.ProductService;
 import vn.edu.hcmuaf.fit.service.SlideService;
 
 import javax.annotation.PostConstruct;
@@ -14,8 +15,8 @@ public class BaseController {
     SlideService _slideService;
     @Autowired
     CategoryService _categoryService;
-//    @Autowired
-//    ProductService _productService;
+    @Autowired
+    ProductService _productService;
 //    @Autowired
 //    ImageService _imageService;
     public ModelAndView _mvShare = new ModelAndView();
