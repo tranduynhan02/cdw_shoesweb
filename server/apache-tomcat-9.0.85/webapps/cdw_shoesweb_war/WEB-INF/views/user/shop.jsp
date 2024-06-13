@@ -9,7 +9,7 @@
 <%@ taglib uri="http://www.opensymphony.com/sitemesh/decorator" prefix="decorator" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page trimDirectiveWhitespaces="true" %>
-
+<body>
 <section id="banner" class="py-3" style="background: #F9F3EC;">
     <div class="container">
         <div class="hero-content py-5 my-3">
@@ -53,7 +53,8 @@
                           New
                         </div> -->
                         <div class="card position-relative">
-                            <a href="single-product.html"><img src="images/item7.jpg" class="img-fluid rounded-4" alt="image"></a>
+                            <a href="single-product.html"><img src="images/item7.jpg" class="img-fluid rounded-4"
+                                                               alt="image"></a>
                             <div class="card-body p-0">
                                 <a href="single-product.html">
                                     <h3 class="card-title pt-4 m-0">Grey hoodie</h3>
@@ -91,7 +92,8 @@
                             New
                         </div>
                         <div class="card position-relative">
-                            <a href="single-product.html"><img src="images/item10.jpg" class="img-fluid rounded-4" alt="image"></a>
+                            <a href="single-product.html"><img src="images/item10.jpg" class="img-fluid rounded-4"
+                                                               alt="image"></a>
                             <div class="card-body p-0">
                                 <a href="single-product.html">
                                     <h3 class="card-title pt-4 m-0">Grey hoodie</h3>
@@ -129,7 +131,8 @@
                           New
                         </div> -->
                         <div class="card position-relative">
-                            <a href="single-product.html"><img src="images/item5.jpg" class="img-fluid rounded-4" alt="image"></a>
+                            <a href="single-product.html"><img src="images/item5.jpg" class="img-fluid rounded-4"
+                                                               alt="image"></a>
                             <div class="card-body p-0">
                                 <a href="single-product.html">
                                     <h3 class="card-title pt-4 m-0">Grey hoodie</h3>
@@ -167,7 +170,8 @@
                             Sold
                         </div>
                         <div class="card position-relative">
-                            <a href="single-product.html"><img src="images/item8.jpg" class="img-fluid rounded-4" alt="image"></a>
+                            <a href="single-product.html"><img src="images/item8.jpg" class="img-fluid rounded-4"
+                                                               alt="image"></a>
                             <div class="card-body p-0">
                                 <a href="single-product.html">
                                     <h3 class="card-title pt-4 m-0">Grey hoodie</h3>
@@ -205,7 +209,8 @@
                           New
                         </div> -->
                         <div class="card position-relative">
-                            <a href="single-product.html"><img src="images/item13.jpg" class="img-fluid rounded-4" alt="image"></a>
+                            <a href="single-product.html"><img src="images/item13.jpg" class="img-fluid rounded-4"
+                                                               alt="image"></a>
                             <div class="card-body p-0">
                                 <a href="single-product.html">
                                     <h3 class="card-title pt-4 m-0">Grey hoodie</h3>
@@ -243,7 +248,8 @@
                           New
                         </div> -->
                         <div class="card position-relative">
-                            <a href="single-product.html"><img src="images/item14.jpg" class="img-fluid rounded-4" alt="image"></a>
+                            <a href="single-product.html"><img src="images/item14.jpg" class="img-fluid rounded-4"
+                                                               alt="image"></a>
                             <div class="card-body p-0">
                                 <a href="single-product.html">
                                     <h3 class="card-title pt-4 m-0">Grey hoodie</h3>
@@ -281,7 +287,8 @@
                             Sale
                         </div>
                         <div class="card position-relative">
-                            <a href="single-product.html"><img src="images/item9.jpg" class="img-fluid rounded-4" alt="image"></a>
+                            <a href="single-product.html"><img src="images/item9.jpg" class="img-fluid rounded-4"
+                                                               alt="image"></a>
                             <div class="card-body p-0">
                                 <a href="single-product.html">
                                     <h3 class="card-title pt-4 m-0">Grey hoodie</h3>
@@ -319,7 +326,8 @@
                           New
                         </div> -->
                         <div class="card position-relative">
-                            <a href="single-product.html"><img src="images/item16.jpg" class="img-fluid rounded-4" alt="image"></a>
+                            <a href="single-product.html"><img src="images/item16.jpg" class="img-fluid rounded-4"
+                                                               alt="image"></a>
                             <div class="card-body p-0">
                                 <a href="single-product.html">
                                     <h3 class="card-title pt-4 m-0">Grey hoodie</h3>
@@ -357,7 +365,8 @@
                           New
                         </div> -->
                         <div class="card position-relative">
-                            <a href="single-product.html"><img src="images/item2.jpg" class="img-fluid rounded-4" alt="image"></a>
+                            <a href="single-product.html"><img src="images/item2.jpg" class="img-fluid rounded-4"
+                                                               alt="image"></a>
                             <div class="card-body p-0">
                                 <a href="single-product.html">
                                     <h3 class="card-title pt-4 m-0">Grey hoodie</h3>
@@ -396,13 +405,15 @@
                 <nav class="navigation paging-navigation text-center mt-5" role="navigation">
                     <div class="pagination loop-pagination d-flex justify-content-center align-items-center">
                         <a href="#" class="pagination-arrow d-flex align-items-center mx-3">
-                            <iconify-icon icon="ic:baseline-keyboard-arrow-left" class="pagination-arrow fs-1"></iconify-icon>
+                            <iconify-icon icon="ic:baseline-keyboard-arrow-left"
+                                          class="pagination-arrow fs-1"></iconify-icon>
                         </a>
                         <span aria-current="page" class="page-numbers mt-2 fs-3 mx-3 current">1</span>
                         <a class="page-numbers mt-2 fs-3 mx-3" href="#">2</a>
                         <a class="page-numbers mt-2 fs-3 mx-3" href="#">3</a>
                         <a href="#" class="pagination-arrow d-flex align-items-center mx-3">
-                            <iconify-icon icon="ic:baseline-keyboard-arrow-right" class="pagination-arrow fs-1"></iconify-icon>
+                            <iconify-icon icon="ic:baseline-keyboard-arrow-right"
+                                          class="pagination-arrow fs-1"></iconify-icon>
                         </a>
                     </div>
                 </nav>
@@ -413,10 +424,13 @@
                     <div class="widget-menu">
                         <div class="widget-search-bar">
                             <div class="search-bar border rounded-2 border-dark-subtle pe-3">
-                                <form id="search-form" class="text-center d-flex align-items-center" action="" method="">
-                                    <input type="text" class="form-control border-0 bg-transparent" placeholder="Search for products">
+                                <form id="search-form" class="text-center d-flex align-items-center" action=""
+                                      method="">
+                                    <input type="text" class="form-control border-0 bg-transparent"
+                                           placeholder="Search for products">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                        <path fill="currentColor" d="M21.71 20.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z"></path>
+                                        <path fill="currentColor"
+                                              d="M21.71 20.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z"></path>
                                     </svg>
                                 </form>
                             </div>
@@ -503,17 +517,21 @@
     <div class="container my-5 ">
         <div class="row my-5 py-5">
             <div class="offset-md-3 col-md-6 my-5 ">
-                <h2 class="display-3 fw-normal text-center">Get 20% Off on <span class="text-primary">first Purchase</span>
+                <h2 class="display-3 fw-normal text-center">Get 20% Off on <span
+                        class="text-primary">first Purchase</span>
                 </h2>
                 <form>
                     <div class="mb-3">
-                        <input type="email" class="form-control form-control-lg" name="email" id="email" placeholder="Enter Your Email Address">
+                        <input type="email" class="form-control form-control-lg" name="email" id="email"
+                               placeholder="Enter Your Email Address">
                     </div>
                     <div class="mb-3">
-                        <input type="password" class="form-control form-control-lg" name="email" id="password1" placeholder="Create Password">
+                        <input type="password" class="form-control form-control-lg" name="email" id="password1"
+                               placeholder="Create Password">
                     </div>
                     <div class="mb-3">
-                        <input type="password" class="form-control form-control-lg" name="email" id="password2" placeholder="Repeat Password">
+                        <input type="password" class="form-control form-control-lg" name="email" id="password2"
+                               placeholder="Repeat Password">
                     </div>
 
                     <div class="d-grid gap-2">
@@ -576,3 +594,4 @@
         </div>
     </div>
 </section>
+</body>
