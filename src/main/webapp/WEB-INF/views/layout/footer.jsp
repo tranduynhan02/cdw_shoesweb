@@ -15,7 +15,7 @@
                 <iconify-icon class="text-white" icon="la:instagram"></iconify-icon>
             </div>
             <a href="#">
-                <img src="<c:url value='/images/insta1.jpg'/>" alt="insta-img" class="img-fluid rounded-3">
+                <img src="<c:url value='/images/fd4327-121-giay-nike-air-jordan-1-high-zoom-air-cmft-2-year-of-the-rabbit-chinh-hang-gia-tot-den-king-shoes-5.png'/>" alt="insta-img" class="img-fluid rounded-3">
             </a>
         </div>
         <div class="col instagram-item  text-center position-relative">
@@ -23,7 +23,7 @@
                 <iconify-icon class="text-white" icon="la:instagram"></iconify-icon>
             </div>
             <a href="#">
-                <img src="<c:url value='/images/insta2.jpg'/>" alt="insta-img" class="img-fluid rounded-3">
+                <img src="<c:url value='/images/dz5485-612-giay-nike-air-jordan-1-chicago-chinh-hang-gia-tot-den-king-shoes-5.jpg'/>" alt="insta-img" class="img-fluid rounded-3">
             </a>
         </div>
         <div class="col instagram-item  text-center position-relative">
@@ -31,7 +31,7 @@
                 <iconify-icon class="text-white" icon="la:instagram"></iconify-icon>
             </div>
             <a href="#">
-                <img src="<c:url value='/images/insta3.jpg'/>" alt="insta-img" class="img-fluid rounded-3">
+                <img src="<c:url value='/images/fd4327-121-giay-nike-air-jordan-1-high-zoom-air-cmft-2-year-of-the-rabbit-chinh-hang-gia-tot-den-king-shoes-12.jpeg'/>" alt="insta-img" class="img-fluid rounded-3">
             </a>
         </div>
         <div class="col instagram-item  text-center position-relative">
@@ -39,7 +39,7 @@
                 <iconify-icon class="text-white" icon="la:instagram"></iconify-icon>
             </div>
             <a href="#">
-                <img src="<c:url value='/images/insta4.jpg'/>" alt="insta-img" class="img-fluid rounded-3">
+                <img src="<c:url value='/images/giay-nike-air-jordan-1-elevate-low-dq1823-006-chinh-hang-den-king-shoes-4.jpg'/>" alt="insta-img" class="img-fluid rounded-3">
             </a>
         </div>
         <div class="col instagram-item  text-center position-relative">
@@ -47,7 +47,7 @@
                 <iconify-icon class="text-white" icon="la:instagram"></iconify-icon>
             </div>
             <a href="#">
-                <img src="<c:url value='/images/insta5.jpg'/>" alt="insta-img" class="img-fluid rounded-3">
+                <img src="<c:url value='/images/dz5485-612-giay-nike-air-jordan-1-chicago-chinh-hang-gia-tot-den-king-shoes-2.jpg'/>" alt="insta-img" class="img-fluid rounded-3">
             </a>
         </div>
         <div class="col instagram-item  text-center position-relative">
@@ -55,7 +55,7 @@
                 <iconify-icon class="text-white" icon="la:instagram"></iconify-icon>
             </div>
             <a href="#">
-                <img src="<c:url value='/images/insta6.jpg'/>" alt="insta-img" class="img-fluid rounded-3">
+                <img src="<c:url value='/images/giay-nike-air-jordan-1-elevate-low-dq1823-006-chinh-hang-den-king-shoes-2.jpg'/>" alt="insta-img" class="img-fluid rounded-3">
             </a>
         </div>
     </div>
@@ -67,7 +67,7 @@
 
             <div class="col-md-3">
                 <div class="footer-menu">
-                    <img src="<c:url value='/images/logo.png'/>" alt="logo">
+                    <img src="<c:url value='/images/logo.png'/>" alt="logo" width="300px">
                     <p class="blog-paragraph fs-6 mt-3">Subscribe to our newsletter to get updates about our grand offers.</p>
                     <div class="social-links">
                         <ul class="d-flex list-unstyled gap-2">

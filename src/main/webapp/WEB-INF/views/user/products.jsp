@@ -9,7 +9,7 @@
 <%@ taglib uri="http://www.opensymphony.com/sitemesh/decorator" prefix="decorator" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page trimDirectiveWhitespaces="true" %>
-<body>
+
 <section id="banner" class="py-3" style="background: #F9F3EC;">
     <div class="container">
         <div class="hero-content py-5 my-3">
@@ -513,7 +513,7 @@
     </div>
 </div>
 
-<section id="register" style="background: url('/images/background-img.png') no-repeat;" class="my-5">
+<section id="register" style="background: url('<c:url value="/images/background-img.png"/>') no-repeat;" class="my-5">
     <div class="container my-5 ">
         <div class="row my-5 py-5">
             <div class="offset-md-3 col-md-6 my-5 ">
@@ -594,4 +594,3 @@
         </div>
     </div>
 </section>
-</body>

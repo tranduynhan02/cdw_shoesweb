@@ -15,64 +15,29 @@
     <div class="container">
         <div class="swiper main-swiper">
             <div class="swiper-wrapper">
+                <c:forEach var="slide" items="${slides}">
+                    <div class="swiper-slide py-5">
+                        <div class="row banner-content align-items-center">
+                            <div class="img-wrapper col-md-5">
+                                <img src="<c:url value='${slide.img}'/>"
+                                     class="img-fluid">
+                            </div>
+                            <div class="content-wrapper col-md-7 p-5 mb-5">
+                                <div class="secondary-font text-primary text-uppercase mb-4">Save 10 - 20 % off</div>
+                                <h2 class="banner-title display-1 fw-normal">Best destination for <span
+                                        class="text-primary">your foot</span>
+                                </h2>
+                                <a href="#" class="btn btn-outline-dark btn-lg text-uppercase fs-6 rounded-1">
+                                    shop now
+                                    <svg width="24" height="24" viewBox="0 0 24 24" class="mb-1">
+                                        <use xlink:href="#arrow-right"></use>
+                                    </svg>
+                                </a>
+                            </div>
 
-                <div class="swiper-slide py-5">
-                    <div class="row banner-content align-items-center">
-                        <div class="img-wrapper col-md-5">
-                            <img src="<c:url value='/images/banner-img.png'/>" class="img-fluid">
                         </div>
-                        <div class="content-wrapper col-md-7 p-5 mb-5">
-                            <div class="secondary-font text-primary text-uppercase mb-4">Save 10 - 20 % off</div>
-                            <h2 class="banner-title display-1 fw-normal">Best destination for <span class="text-primary">your
-                    pets</span>
-                            </h2>
-                            <a href="#" class="btn btn-outline-dark btn-lg text-uppercase fs-6 rounded-1">
-                                shop now
-                                <svg width="24" height="24" viewBox="0 0 24 24" class="mb-1">
-                                    <use xlink:href="#arrow-right"></use>
-                                </svg></a>
-                        </div>
-
                     </div>
-                </div>
-                <div class="swiper-slide py-5">
-                    <div class="row banner-content align-items-center">
-                        <div class="img-wrapper col-md-5">
-                            <img src="<c:url value='/images/banner-img3.png'/>" class="img-fluid">
-                        </div>
-                        <div class="content-wrapper col-md-7 p-5 mb-5">
-                            <div class="secondary-font text-primary text-uppercase mb-4">Save 10 - 20 % off</div>
-                            <h2 class="banner-title display-1 fw-normal">Best destination for <span class="text-primary">your
-                    pets</span>
-                            </h2>
-                            <a href="#" class="btn btn-outline-dark btn-lg text-uppercase fs-6 rounded-1">
-                                shop now
-                                <svg width="24" height="24" viewBox="0 0 24 24" class="mb-1">
-                                    <use xlink:href="#arrow-right"></use>
-                                </svg></a>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="swiper-slide py-5">
-                    <div class="row banner-content align-items-center">
-                        <div class="img-wrapper col-md-5">
-                            <img src="<c:url value='/images/banner-img4.png'/>" class="img-fluid">
-                        </div>
-                        <div class="content-wrapper col-md-7 p-5 mb-5">
-                            <div class="secondary-font text-primary text-uppercase mb-4">Save 10 - 20 % off</div>
-                            <h2 class="banner-title display-1 fw-normal">Best destination for <span class="text-primary">your
-                    pets</span>
-                            </h2>
-                            <a href="#" class="btn btn-outline-dark btn-lg text-uppercase fs-6 rounded-1">
-                                shop now
-                                <svg width="24" height="24" viewBox="0 0 24 24" class="mb-1">
-                                    <use xlink:href="#arrow-right"></use>
-                                </svg></a>
-                        </div>
-
-                    </div>
-                </div>
+                </c:forEach>
             </div>
 
             <div class="swiper-pagination mb-5"></div>
@@ -86,32 +51,27 @@
         <div class="row my-5">
             <div class="col text-center">
                 <a href="#" class="categories-item">
-                    <iconify-icon class="category-icon" icon="ph:bowl-food"></iconify-icon>
-                    <h5>Foodies</h5>
+                    <img src="<c:url value='/images/logo/logo-nike.jpg'/>"
+                         class="img-fluid">
+                    <h5>Nike</h5>
                 </a>
             </div>
             <div class="col text-center">
                 <a href="#" class="categories-item">
-                    <iconify-icon class="category-icon" icon="ph:bird"></iconify-icon>
-                    <h5>Bird Shop</h5>
+                    <img src="<c:url value='/images/logo/logo-adidas.jpg'/>" class="img-fluid">
+                    <h5>Adidas</h5>
                 </a>
             </div>
             <div class="col text-center">
                 <a href="#" class="categories-item">
-                    <iconify-icon class="category-icon" icon="ph:dog"></iconify-icon>
-                    <h5>Dog Shop</h5>
+                    <img src="<c:url value='/images/logo/logo-jordan.jpg'/>" class="img-fluid">
+                    <h5>Yordan</h5>
                 </a>
             </div>
             <div class="col text-center">
                 <a href="#" class="categories-item">
-                    <iconify-icon class="category-icon" icon="ph:fish"></iconify-icon>
-                    <h5>Fish Shop</h5>
-                </a>
-            </div>
-            <div class="col text-center">
-                <a href="#" class="categories-item">
-                    <iconify-icon class="category-icon" icon="ph:cat"></iconify-icon>
-                    <h5>Cat Shop</h5>
+                    <img src="<c:url value='/images/logo/logo-yeezy.jpg'/>" class="img-fluid">
+                    <h5>Yeezy</h5>
                 </a>
             </div>
         </div>
@@ -128,7 +88,8 @@
                     shop now
                     <svg width="24" height="24" viewBox="0 0 24 24" class="mb-1">
                         <use xlink:href="#arrow-right"></use>
-                    </svg></a>
+                    </svg>
+                </a>
             </div>
         </div>
 
@@ -140,7 +101,8 @@
                         New
                     </div>
                     <div class="card position-relative">
-                        <a href="single-product.html"><img src="<c:url value='/images/item1.jpg'/>" class="img-fluid rounded-4" alt="image"></a>
+                        <a href="single-product.html"><img src="<c:url value='/images/item1.jpg'/>"
+                                                           class="img-fluid rounded-4" alt="image"></a>
                         <div class="card-body p-0">
                             <a href="single-product.html">
                                 <h3 class="card-title pt-4 m-0">Grey hoodie</h3>
@@ -177,7 +139,8 @@
                       New
                     </div> -->
                     <div class="card position-relative">
-                        <a href="single-product.html"><img src="<c:url value='/images/item2.jpg'/>" class="img-fluid rounded-4" alt="image"></a>
+                        <a href="single-product.html"><img src="<c:url value='/images/item2.jpg'/>"
+                                                           class="img-fluid rounded-4" alt="image"></a>
                         <div class="card-body p-0">
                             <a href="single-product.html">
                                 <h3 class="card-title pt-4 m-0">Grey hoodie</h3>
@@ -213,7 +176,8 @@
                         -10%
                     </div>
                     <div class="card position-relative">
-                        <a href="single-product.html"><img src="<c:url value='/images/item3.jpg'/>" class="img-fluid rounded-4" alt="image"></a>
+                        <a href="single-product.html"><img src="<c:url value='/images/item3.jpg'/>"
+                                                           class="img-fluid rounded-4" alt="image"></a>
                         <div class="card-body p-0">
                             <a href="single-product.html">
                                 <h3 class="card-title pt-4 m-0">Grey hoodie</h3>
@@ -250,7 +214,8 @@
                       New
                     </div> -->
                     <div class="card position-relative">
-                        <a href="single-product.html"><img src="<c:url value='/images/item4.jpg'/>" class="img-fluid rounded-4" alt="image"></a>
+                        <a href="single-product.html"><img src="<c:url value='/images/item4.jpg'/>"
+                                                           class="img-fluid rounded-4" alt="image"></a>
                         <div class="card-body p-0">
                             <a href="single-product.html">
                                 <h3 class="card-title pt-4 m-0">Grey hoodie</h3>
@@ -287,7 +252,8 @@
                       New
                     </div> -->
                     <div class="card position-relative">
-                        <a href="single-product.html"><img src="<c:url value='/images/item7.jpg'/>" class="img-fluid rounded-4" alt="image"></a>
+                        <a href="single-product.html"><img src="<c:url value='/images/item7.jpg'/>"
+                                                           class="img-fluid rounded-4" alt="image"></a>
                         <div class="card-body p-0">
                             <a href="single-product.html">
                                 <h3 class="card-title pt-4 m-0">Grey hoodie</h3>
@@ -324,7 +290,8 @@
                       New
                     </div> -->
                     <div class="card position-relative">
-                        <a href="single-product.html"><img src="<c:url value='/images/item8.jpg'/>" class="img-fluid rounded-4" alt="image"></a>
+                        <a href="single-product.html"><img src="<c:url value='/images/item8.jpg'/>"
+                                                           class="img-fluid rounded-4" alt="image"></a>
                         <div class="card-body p-0">
                             <a href="single-product.html">
                                 <h3 class="card-title pt-4 m-0">Grey hoodie</h3>
@@ -383,7 +350,8 @@
                     shop now
                     <svg width="24" height="24" viewBox="0 0 24 24" class="mb-1">
                         <use xlink:href="#arrow-right"></use>
-                    </svg></a>
+                    </svg>
+                </a>
             </div>
         </div>
 
@@ -394,7 +362,8 @@
                   New
                 </div> -->
                 <div class="card position-relative">
-                    <a href="single-product.html"><img src="<c:url value='/images/item9.jpg'/>" class="img-fluid rounded-4" alt="image"></a>
+                    <a href="single-product.html"><img src="<c:url value='/images/item9.jpg'/>"
+                                                       class="img-fluid rounded-4" alt="image"></a>
                     <div class="card-body p-0">
                         <a href="single-product.html">
                             <h3 class="card-title pt-4 m-0">Grey hoodie</h3>
@@ -432,7 +401,8 @@
                     New
                 </div>
                 <div class="card position-relative">
-                    <a href="single-product.html"><img src="<c:url value='/images/item10.jpg'/>" class="img-fluid rounded-4" alt="image"></a>
+                    <a href="single-product.html"><img src="<c:url value='/images/item10.jpg'/>"
+                                                       class="img-fluid rounded-4" alt="image"></a>
                     <div class="card-body p-0">
                         <a href="single-product.html">
                             <h3 class="card-title pt-4 m-0">Grey hoodie</h3>
@@ -470,7 +440,8 @@
                   New
                 </div> -->
                 <div class="card position-relative">
-                    <a href="single-product.html"><img src="<c:url value='/images/item11.jpg'/>" class="img-fluid rounded-4" alt="image"></a>
+                    <a href="single-product.html"><img src="<c:url value='/images/item11.jpg'/>"
+                                                       class="img-fluid rounded-4" alt="image"></a>
                     <div class="card-body p-0">
                         <a href="single-product.html">
                             <h3 class="card-title pt-4 m-0">Grey hoodie</h3>
@@ -508,7 +479,8 @@
                     Sold
                 </div>
                 <div class="card position-relative">
-                    <a href="single-product.html"><img src="<c:url value='/images/item12.jpg'/>" class="img-fluid rounded-4" alt="image"></a>
+                    <a href="single-product.html"><img src="<c:url value='/images/item12.jpg'/>"
+                                                       class="img-fluid rounded-4" alt="image"></a>
                     <div class="card-body p-0">
                         <a href="single-product.html">
                             <h3 class="card-title pt-4 m-0">Grey hoodie</h3>
@@ -546,7 +518,8 @@
                   New
                 </div> -->
                 <div class="card position-relative">
-                    <a href="single-product.html"><img src="<c:url value='/images/item13.jpg'/>" class="img-fluid rounded-4" alt="image"></a>
+                    <a href="single-product.html"><img src="<c:url value='/images/item13.jpg'/>"
+                                                       class="img-fluid rounded-4" alt="image"></a>
                     <div class="card-body p-0">
                         <a href="single-product.html">
                             <h3 class="card-title pt-4 m-0">Grey hoodie</h3>
@@ -584,7 +557,8 @@
                   New
                 </div> -->
                 <div class="card position-relative">
-                    <a href="single-product.html"><img src="<c:url value='/images/item14.jpg'/>" class="img-fluid rounded-4" alt="image"></a>
+                    <a href="single-product.html"><img src="<c:url value='/images/item14.jpg'/>"
+                                                       class="img-fluid rounded-4" alt="image"></a>
                     <div class="card-body p-0">
                         <a href="single-product.html">
                             <h3 class="card-title pt-4 m-0">Grey hoodie</h3>
@@ -622,7 +596,8 @@
                     Sale
                 </div>
                 <div class="card position-relative">
-                    <a href="single-product.html"><img src="<c:url value='/images/item15.jpg'/>" class="img-fluid rounded-4" alt="image"></a>
+                    <a href="single-product.html"><img src="<c:url value='/images/item15.jpg'/>"
+                                                       class="img-fluid rounded-4" alt="image"></a>
                     <div class="card-body p-0">
                         <a href="single-product.html">
                             <h3 class="card-title pt-4 m-0">Grey hoodie</h3>
@@ -660,7 +635,8 @@
                   New
                 </div> -->
                 <div class="card position-relative">
-                    <a href="single-product.html"><img src="<c:url value='/images/item16.jpg'/>" class="img-fluid rounded-4" alt="image"></a>
+                    <a href="single-product.html"><img src="<c:url value='/images/item16.jpg'/>"
+                                                       class="img-fluid rounded-4" alt="image"></a>
                     <div class="card-body p-0">
                         <a href="single-product.html">
                             <h3 class="card-title pt-4 m-0">Grey hoodie</h3>
@@ -714,7 +690,8 @@
                     shop now
                     <svg width="24" height="24" viewBox="0 0 24 24" class="mb-1">
                         <use xlink:href="#arrow-right"></use>
-                    </svg></a>
+                    </svg>
+                </a>
             </div>
 
         </div>
@@ -731,10 +708,12 @@
                         <div class="swiper-slide">
                             <div class="row ">
                                 <div class="col-2">
-                                    <iconify-icon icon="ri:double-quotes-l" class="quote-icon text-primary"></iconify-icon>
+                                    <iconify-icon icon="ri:double-quotes-l"
+                                                  class="quote-icon text-primary"></iconify-icon>
                                 </div>
                                 <div class="col-md-10 mt-md-5 p-5 pt-0 pt-md-5">
-                                    <p class="testimonial-content fs-2">At the core of our practice is the idea that cities are the
+                                    <p class="testimonial-content fs-2">At the core of our practice is the idea that
+                                        cities are the
                                         incubators of our
                                         greatest achievements, and the best hope for a sustainable future.</p>
                                     <p class="text-black">- Joshima Lin</p>
@@ -744,10 +723,12 @@
                         <div class="swiper-slide">
                             <div class="row ">
                                 <div class="col-2">
-                                    <iconify-icon icon="ri:double-quotes-l" class="quote-icon text-primary"></iconify-icon>
+                                    <iconify-icon icon="ri:double-quotes-l"
+                                                  class="quote-icon text-primary"></iconify-icon>
                                 </div>
                                 <div class="col-md-10 mt-md-5 p-5 pt-0 pt-md-5">
-                                    <p class="testimonial-content fs-2">At the core of our practice is the idea that cities are the
+                                    <p class="testimonial-content fs-2">At the core of our practice is the idea that
+                                        cities are the
                                         incubators of our
                                         greatest achievements, and the best hope for a sustainable future.</p>
                                     <p class="text-black">- Joshima Lin</p>
@@ -757,10 +738,12 @@
                         <div class="swiper-slide">
                             <div class="row ">
                                 <div class="col-2">
-                                    <iconify-icon icon="ri:double-quotes-l" class="quote-icon text-primary"></iconify-icon>
+                                    <iconify-icon icon="ri:double-quotes-l"
+                                                  class="quote-icon text-primary"></iconify-icon>
                                 </div>
                                 <div class="col-md-10 mt-md-5 p-5 pt-0 pt-md-5">
-                                    <p class="testimonial-content fs-2">At the core of our practice is the idea that cities are the
+                                    <p class="testimonial-content fs-2">At the core of our practice is the idea that
+                                        cities are the
                                         incubators of our
                                         greatest achievements, and the best hope for a sustainable future.</p>
                                     <p class="text-black">- Joshima Lin</p>
@@ -789,7 +772,8 @@
                     shop now
                     <svg width="24" height="24" viewBox="0 0 24 24" class="mb-1">
                         <use xlink:href="#arrow-right"></use>
-                    </svg></a>
+                    </svg>
+                </a>
             </div>
         </div>
 
@@ -801,7 +785,8 @@
                       New
                     </div> -->
                     <div class="card position-relative">
-                        <a href="single-product.html"><img src="<c:url value='/images/item5.jpg'/>" class="img-fluid rounded-4" alt="image"></a>
+                        <a href="single-product.html"><img src="<c:url value='/images/item5.jpg'/>"
+                                                           class="img-fluid rounded-4" alt="image"></a>
                         <div class="card-body p-0">
                             <a href="single-product.html">
                                 <h3 class="card-title pt-4 m-0">Grey hoodie</h3>
@@ -838,7 +823,8 @@
                       New
                     </div> -->
                     <div class="card position-relative">
-                        <a href="single-product.html"><img src="<c:url value='/images/item6.jpg'/>" class="img-fluid rounded-4" alt="image"></a>
+                        <a href="single-product.html"><img src="<c:url value='/images/item6.jpg'/>"
+                                                           class="img-fluid rounded-4" alt="image"></a>
                         <div class="card-body p-0">
                             <a href="single-product.html">
                                 <h3 class="card-title pt-4 m-0">Grey hoodie</h3>
@@ -874,7 +860,8 @@
                         Sale
                     </div>
                     <div class="card position-relative">
-                        <a href="single-product.html"><img src="<c:url value='/images/item7.jpg'/>" class="img-fluid rounded-4" alt="image"></a>
+                        <a href="single-product.html"><img src="<c:url value='/images/item7.jpg'/>"
+                                                           class="img-fluid rounded-4" alt="image"></a>
                         <div class="card-body p-0">
                             <a href="single-product.html">
                                 <h3 class="card-title pt-4 m-0">Grey hoodie</h3>
@@ -911,7 +898,8 @@
                       New
                     </div> -->
                     <div class="card position-relative">
-                        <a href="single-product.html"><img src="<c:url value='/images/item8.jpg'/>" class="img-fluid rounded-4" alt="image"></a>
+                        <a href="single-product.html"><img src="<c:url value='/images/item8.jpg'/>"
+                                                           class="img-fluid rounded-4" alt="image"></a>
                         <div class="card-body p-0">
                             <a href="single-product.html">
                                 <h3 class="card-title pt-4 m-0">Grey hoodie</h3>
@@ -948,7 +936,8 @@
                         -10%
                     </div>
                     <div class="card position-relative">
-                        <a href="single-product.html"><img src="<c:url value='/images/item3.jpg'/>" class="img-fluid rounded-4" alt="image"></a>
+                        <a href="single-product.html"><img src="<c:url value='/images/item3.jpg'/>"
+                                                           class="img-fluid rounded-4" alt="image"></a>
                         <div class="card-body p-0">
                             <a href="single-product.html">
                                 <h3 class="card-title pt-4 m-0">Grey hoodie</h3>
@@ -985,7 +974,8 @@
                       New
                     </div> -->
                     <div class="card position-relative">
-                        <a href="single-product.html"><img src="<c:url value='/images/item4.jpg'/>" class="img-fluid rounded-4" alt="image"></a>
+                        <a href="single-product.html"><img src="<c:url value='/images/item4.jpg'/>"
+                                                           class="img-fluid rounded-4" alt="image"></a>
                         <div class="card-body p-0">
                             <a href="single-product.html">
                                 <h3 class="card-title pt-4 m-0">Grey hoodie</h3>
@@ -1027,11 +1017,12 @@
     </div>
 </section>
 
-<section id="register" style="background: url("<c:url value='/images/background-img.png'/>") no-repeat;">
+<section id="register" style="background: url('<c:url value="/images/background-img.png"/>') no-repeat;">
     <div class="container ">
         <div class="row my-5 py-5">
             <div class="offset-md-3 col-md-6 my-5 ">
-                <h2 class="display-3 fw-normal text-center">Get 20% Off on <span class="text-primary">first Purchase</span>
+                <h2 class="display-3 fw-normal text-center">Get 20% Off on <span
+                        class="text-primary">first Purchase</span>
                 </h2>
                 <form>
                     <div class="mb-3">
@@ -1066,7 +1057,8 @@
                         Read all
                         <svg width="24" height="24" viewBox="0 0 24 24" class="mb-1">
                             <use xlink:href="#arrow-right"></use>
-                        </svg></a>
+                        </svg>
+                    </a>
                 </div>
             </div>
         </div>
@@ -1078,14 +1070,16 @@
 
                 </div>
                 <div class="card position-relative">
-                    <a href="single-post.html"><img src="<c:url value='/images/blog1.jpg'/>" class="img-fluid rounded-4" alt="image"></a>
+                    <a href="single-post.html"><img src="<c:url value='/images/blog1.jpg'/>" class="img-fluid rounded-4"
+                                                    alt="image"></a>
                     <div class="card-body p-0">
                         <a href="single-post.html">
                             <h3 class="card-title pt-4 pb-3 m-0">10 Reasons to be helpful towards any animals</h3>
                         </a>
 
                         <div class="card-text">
-                            <p class="blog-paragraph fs-6">At the core of our practice is the idea that cities are the incubators of
+                            <p class="blog-paragraph fs-6">At the core of our practice is the idea that cities are the
+                                incubators of
                                 our greatest
                                 achievements, and the best hope for a sustainable future.</p>
                             <a href="single-post.html" class="blog-read">read more</a>
@@ -1101,14 +1095,16 @@
 
                 </div>
                 <div class="card position-relative">
-                    <a href="single-post.html"><img src="<c:url value='/images/blog2.jpg'/>" class="img-fluid rounded-4" alt="image"></a>
+                    <a href="single-post.html"><img src="<c:url value='/images/blog2.jpg'/>" class="img-fluid rounded-4"
+                                                    alt="image"></a>
                     <div class="card-body p-0">
                         <a href="single-post.html">
                             <h3 class="card-title pt-4 pb-3 m-0">How to know your pet is hungry</h3>
                         </a>
 
                         <div class="card-text">
-                            <p class="blog-paragraph fs-6">At the core of our practice is the idea that cities are the incubators of
+                            <p class="blog-paragraph fs-6">At the core of our practice is the idea that cities are the
+                                incubators of
                                 our greatest
                                 achievements, and the best hope for a sustainable future.</p>
                             <a href="single-post.html" class="blog-read">read more</a>
@@ -1124,14 +1120,16 @@
 
                 </div>
                 <div class="card position-relative">
-                    <a href="single-post.html"><img src="<c:url value='/images/blog3.jpg'/>" class="img-fluid rounded-4" alt="image"></a>
+                    <a href="single-post.html"><img src="<c:url value='/images/blog3.jpg'/>" class="img-fluid rounded-4"
+                                                    alt="image"></a>
                     <div class="card-body p-0">
                         <a href="single-post.html">
                             <h3 class="card-title pt-4 pb-3 m-0">Best home for your pets</h3>
                         </a>
 
                         <div class="card-text">
-                            <p class="blog-paragraph fs-6">At the core of our practice is the idea that cities are the incubators of
+                            <p class="blog-paragraph fs-6">At the core of our practice is the idea that cities are the
+                                incubators of
                                 our greatest
                                 achievements, and the best hope for a sustainable future.</p>
                             <a href="single-post.html" class="blog-read">read more</a>
